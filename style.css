@@ -1,5 +1,15 @@
 .navbar{
-    background-color: rgb(255, 193, 5);
+    background-color: rgb(255, 255, 255);
+}
+
+.nav-ico{
+    height: 50px;
+    width: 169px
+}
+
+.nav-link{
+    color: rgb(35,33,90);
+    font-family: inter;
 }
 
 .welcome{
@@ -61,7 +71,8 @@ video{
 }
 
 .heading{
-    font-weight: 600;
+    font-family: im fell great primer sc;
+    font-size: clamp(30px, 6vw,60px);
 }
 
 .about-txt p{
@@ -123,6 +134,7 @@ video{
 
 .service-card-txt-cont:hover{
     background: rgba(0, 0, 0, 0.5);
+    transform: scale(1.12);
 }
 
 .service-card:hover .service-card-text{
