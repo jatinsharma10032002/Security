@@ -184,3 +184,89 @@ video{
 .rev-container::-webkit-scrollbar{
     display: none;
 }
+
+
+/* code by jatin */
+
+.footer{
+    background-color: rgb(217,217, 217);
+    width: 100%;
+    padding: 1%;
+}
+.row{
+    width: 100%;
+    margin: 0 auto;
+}
+.logo-with-text img{
+    width: 36%;
+}
+.footer-contact-us-button{
+    width: 22%;
+    height: 77px;
+    background-color:rgba(35, 33, 90, 1);
+    color: white;
+    font-family: inter;
+    font-size: 36px;
+    border-radius: 10px;
+}
+.footer-text{
+    width: 37%;
+    padding: 0.5%;
+    padding-left:50px ;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.footer-more-feature{
+    padding: 1%;
+    padding-left: 6%;
+    display: flex;
+}
+
+.vertical-menu{
+    padding: 2%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.vertical-menu ul{
+    margin: 10px;
+}
+.vertical-menu a{
+    text-decoration: none;
+    color: #000;
+}
+.vertical-menu a{
+
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+.vertical-menu ul :hover{
+    transition-duration: 500ms;
+    color: lightslategray;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.footer-line{
+    padding: 2%;
+    border-right: 2px solid #000;
+}
+.company-info-inside-footer{
+    padding: 20px;
+}
+
+.footer-icon{
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+.footer-icon i{
+    height: 20px;
+    width: 20px;
+}
+.footer-icon text{
+    padding: 10px;
+}
+
